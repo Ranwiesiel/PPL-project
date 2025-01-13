@@ -83,7 +83,6 @@ Aplikasi Sistem Sekolah Terintegrasi adalah suatu proyek yang bertujuan untuk me
 > 1. Chat nomor +14155238886
 > 2. Ketik 'join weak-gold' (tanpa tanda petik)
 > 3. Nanti ada keterangan successfully 
-
 > - Untuk menjalankan server twiliio gunakan perintah berikut pada terminal yang berbeda
 >   ```shell
 >   php artisan queue:listen
@@ -99,6 +98,36 @@ Aplikasi Sistem Sekolah Terintegrasi adalah suatu proyek yang bertujuan untuk me
 > - import excel memiliki formatnya sendiri sehingga tidak bisa sembarangan
 > - nomer wa harus terdaftar lewat chat twillio terlebih dahulu baru bisa di hubungi nomernya sesuai dengan database
 > - jika ingin merubah database menggunakan selain MUSQL dapat dilakukan di `.env`
+
+
+> ### Akun
+> - Akun Superadmin
+> - username : `admin`
+> - password : `admin123`
+>
+> - Akun Staff Akademik
+> - username : `bagussatria69`
+> - password : `bagussatria`
+>
+> - Akun Staff Perpus
+> - username : `amir`
+> - password : `amir`
+>
+> - Akun Siswa biasa
+> - username : `adisahrul1`
+> - password : `adisahrul1`
+>
+> - Akun Siswa Pengurus
+> - username : `huda`
+> - password : `huda`
+>
+> - Akun Guru Biasa
+> - username : `faqih`
+> - password : `faqih`
+>
+> - Akun Guru Pembina
+> - username : `ranwiesiel`
+> - password : `ronggo123`
 
 
 ## Kesimpulan 
