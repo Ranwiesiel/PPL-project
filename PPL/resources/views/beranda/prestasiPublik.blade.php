@@ -6,7 +6,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 @foreach ($prestasi as $item)
                     <div class="bg-white shadow-md rounded-lg overflow-hidden">
-                    <img src="{{ $item->gambar ?? asset('images/image-none.jpg') }}" alt="" class="w-full h-40 object-cover">
+                    <img src="{{ assets('images/'.$item->gambar)  ?? asset('images/image-none.jpg') }}" alt="" class="w-full h-40 object-cover">
                         <div class="p-6">
                             <h3 class="text-lg font-semibold text-gray-800">{{ $item->judul }}</h3>
                             <p class="text-gray-600 text-sm mt-2">{{  $item->deskripsi }}</p>
